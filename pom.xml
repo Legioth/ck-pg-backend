@@ -78,7 +78,8 @@
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <scope>runtime</scope>
+            <!-- Need to have the driver on the compile classpath to cast the connection -->
+            <!-- <scope>runtime</scope> -->
         </dependency>
 
         <dependency>
